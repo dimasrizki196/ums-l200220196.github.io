@@ -1,0 +1,30 @@
+[MFLOG|0|2024-10-29T01:05:35.504466Z|runtime|480a6fd2-bfcc-4d55-aab5-e863fa93db6e]<flow KuliahFlow step join> failed:
+[MFLOG|0|2024-10-29T01:05:35.510001Z|runtime|138d931e-3b0d-4557-bf08-be94f1b0cecb]    Internal error
+[MFLOG|0|2024-10-29T01:05:35.511252Z|runtime|66e0b6da-31ce-4e29-a9f9-cf948ddafc42]Traceback (most recent call last):
+[MFLOG|0|2024-10-29T01:05:35.511677Z|runtime|70550bc0-b9a3-4548-a7ee-42297eb40bfb]  File "/home/dimasrizki_/anaconda3/envs/metaflow_env/lib/python3.10/site-packages/metaflow/cli.py", line 1139, in main
+[MFLOG|0|2024-10-29T01:05:35.511948Z|runtime|ac4208c9-1586-4848-9559-1baba0afa798]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2024-10-29T01:05:35.512294Z|runtime|936cd78c-d754-4a90-b045-095fe0025c42]  File "/home/dimasrizki_/anaconda3/envs/metaflow_env/lib/python3.10/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2024-10-29T01:05:35.512756Z|runtime|51c0788f-8a22-4733-a00c-2cc9f8836005]    return func(args, kwargs)
+[MFLOG|0|2024-10-29T01:05:35.601547Z|runtime|dd1d80fc-729a-4bfc-bd78-409a27a3412b]  File "/home/dimasrizki_/anaconda3/envs/metaflow_env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2024-10-29T01:05:35.601854Z|runtime|67729f2e-2ea5-4762-b0ff-3f04fc7afd1e]    return self.main(args, kwargs)
+[MFLOG|0|2024-10-29T01:05:35.602040Z|runtime|896a98f5-ae25-4899-afda-d641af2d7e8e]  File "/home/dimasrizki_/anaconda3/envs/metaflow_env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2024-10-29T01:05:35.602218Z|runtime|d6bed12f-b788-40da-9818-02fc126f30c8]    rv = self.invoke(ctx)
+[MFLOG|0|2024-10-29T01:05:35.602391Z|runtime|d3fcb53f-db9a-4eb5-8c3a-dd2150315ba3]  File "/home/dimasrizki_/anaconda3/envs/metaflow_env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2024-10-29T01:05:35.602565Z|runtime|4b07b6d8-f26a-440d-90ef-6bc29fd8bfec]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2024-10-29T01:05:35.602734Z|runtime|8954206e-a28e-4bf5-be3a-0cf6231ad624]  File "/home/dimasrizki_/anaconda3/envs/metaflow_env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2024-10-29T01:05:35.602903Z|runtime|fc281863-ab40-4f75-b811-ca8a60101c3f]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2024-10-29T01:05:35.603072Z|runtime|26e28adc-393b-4d7d-b3b0-a5493db4a251]  File "/home/dimasrizki_/anaconda3/envs/metaflow_env/lib/python3.10/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2024-10-29T01:05:35.603242Z|runtime|f05087b9-a419-4d9d-a333-201d08dd2666]    return callback(args, kwargs)
+[MFLOG|0|2024-10-29T01:05:35.603409Z|runtime|5860a7b6-5b12-4032-bcd1-16a55120e72c]  File "/home/dimasrizki_/anaconda3/envs/metaflow_env/lib/python3.10/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2024-10-29T01:05:35.603580Z|runtime|5a61038e-42c4-4a72-84ba-41b348965756]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2024-10-29T01:05:35.603747Z|runtime|95bb866b-69e1-47d8-9d50-eaef23c4f464]  File "/home/dimasrizki_/anaconda3/envs/metaflow_env/lib/python3.10/site-packages/metaflow/cli.py", line 469, in step
+[MFLOG|0|2024-10-29T01:05:35.603918Z|runtime|0ddb154b-a608-4feb-a934-4829f1df0078]    task.run_step(
+[MFLOG|0|2024-10-29T01:05:35.604090Z|runtime|77e27b05-ddaf-4d4a-a3e4-70b152fe55d1]  File "/home/dimasrizki_/anaconda3/envs/metaflow_env/lib/python3.10/site-packages/metaflow/task.py", line 654, in run_step
+[MFLOG|0|2024-10-29T01:05:35.604259Z|runtime|689dfdbc-23a5-4b53-a251-d9ba7d587a5b]    self._exec_step_function(step_func, input_obj)
+[MFLOG|0|2024-10-29T01:05:35.604427Z|runtime|e0b0dc38-559c-449c-a072-2000ab61527b]  File "/home/dimasrizki_/anaconda3/envs/metaflow_env/lib/python3.10/site-packages/metaflow/task.py", line 64, in _exec_step_function
+[MFLOG|0|2024-10-29T01:05:35.604597Z|runtime|62a73304-1277-4f8d-bfd5-843f3945c42a]    step_function(input_obj)
+[MFLOG|0|2024-10-29T01:05:35.604764Z|runtime|efe4edfb-bf0a-4de1-a8a0-5fd0eac64b4e]  File "/home/dimasrizki_/ums-l200220196.github.io/KuliahFlow.py", line 38, in join
+[MFLOG|0|2024-10-29T01:05:35.604965Z|runtime|f7fc7dc7-cdd3-44a8-b36b-1671ffc19b61]    self.rata_rata = self.total_nilai / len(inputs)
+[MFLOG|0|2024-10-29T01:05:35.605133Z|runtime|c0c04115-4cc4-4ade-8a35-87bd5ad74471]TypeError: object of type 'Inputs' has no len()
+[MFLOG|0|2024-10-29T01:05:35.605452Z|runtime|350a11d4-56e0-4a33-8615-8106084ec1d1]
+[MFLOG|0|2024-10-29T01:05:35.605948Z|runtime|2723a312-1a5c-4bb7-98f9-a3f018501ee3]Task failed.
