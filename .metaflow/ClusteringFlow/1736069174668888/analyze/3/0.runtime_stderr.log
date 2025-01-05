@@ -1,0 +1,66 @@
+[MFLOG|0|2025-01-05T09:26:17.685628Z|runtime|e29fa46f-f6c0-4d80-bbe3-7cfab6251647]<flow ClusteringFlow step analyze> failed:
+[MFLOG|0|2025-01-05T09:26:17.696524Z|runtime|5b48c9f7-197e-4e97-a5eb-d05fc730b30c]    Internal error
+[MFLOG|0|2025-01-05T09:26:17.697775Z|runtime|3a2e7bb6-0d5f-4627-a233-ef16bf4672ca]Traceback (most recent call last):
+[MFLOG|0|2025-01-05T09:26:17.697838Z|runtime|7eac46d9-8129-4bc9-a12b-8637e315408d]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 4725, in _parse_scatter_color_args
+[MFLOG|0|2025-01-05T09:26:17.697878Z|runtime|a71c5ae1-7b13-4b89-b1ac-d9ed1430a1a4]    colors = mcolors.to_rgba_array(c)
+[MFLOG|0|2025-01-05T09:26:17.697927Z|runtime|04a1193b-5fee-4cbb-9424-b45e4a679e9d]             ^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.697956Z|runtime|aaebfefb-a93a-4c2b-ade0-3c0c73ed78c0]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/matplotlib/colors.py", line 514, in to_rgba_array
+[MFLOG|0|2025-01-05T09:26:17.698012Z|runtime|52625bba-e0f4-4a52-9f0a-0805969c4613]    rgba = np.array([to_rgba(cc) for cc in c])
+[MFLOG|0|2025-01-05T09:26:17.698039Z|runtime|50f252a4-8ae4-47c3-8ee3-87b38c06df83]                     ^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.698063Z|runtime|8fbde9a9-d69c-4687-83f6-54773d2bb403]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/matplotlib/colors.py", line 316, in to_rgba
+[MFLOG|0|2025-01-05T09:26:17.698090Z|runtime|6a6047b0-79c4-4a78-94f7-651913177676]    rgba = _to_rgba_no_colorcycle(c, alpha)
+[MFLOG|0|2025-01-05T09:26:17.698115Z|runtime|483b11ac-daf9-4efb-ab83-345d3ecf0ae4]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.698138Z|runtime|2a4a824b-d1f3-443a-8c4e-27faf388b1fe]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/matplotlib/colors.py", line 400, in _to_rgba_no_colorcycle
+[MFLOG|0|2025-01-05T09:26:17.698168Z|runtime|bfec8482-bd38-4263-928b-ca8b2a27c673]    raise ValueError(f"Invalid RGBA argument: {orig_c!r}")
+[MFLOG|0|2025-01-05T09:26:17.698189Z|runtime|330ffcc2-9297-4698-b0ab-d9d17a12dbb8]ValueError: Invalid RGBA argument: np.float64(1.0)
+[MFLOG|0|2025-01-05T09:26:17.698213Z|runtime|d422703a-dcd8-47e1-b08e-c874b3fc0b1e]
+[MFLOG|0|2025-01-05T09:26:17.698235Z|runtime|185aa3c3-fc62-4198-9ee2-50110e26a64c]The above exception was the direct cause of the following exception:
+[MFLOG|0|2025-01-05T09:26:17.698256Z|runtime|4463abc5-3dc4-480c-b102-2ce2e8217c69]
+[MFLOG|0|2025-01-05T09:26:17.698276Z|runtime|68137d58-7158-4679-815d-70ce998c401e]Traceback (most recent call last):
+[MFLOG|0|2025-01-05T09:26:17.698299Z|runtime|36a69bd7-fcbb-4294-a17d-c8d0334fad28]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli.py", line 629, in main
+[MFLOG|0|2025-01-05T09:26:17.698326Z|runtime|b880f7a4-e9e6-4842-9085-a8f634c27c22]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2025-01-05T09:26:17.698349Z|runtime|309ceded-4c2b-467b-8df3-870fb46e4ad0]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2025-01-05T09:26:17.698380Z|runtime|36de1e56-75ae-482b-833f-e1ff62e6655f]    return self.main(args, kwargs)
+[MFLOG|0|2025-01-05T09:26:17.805843Z|runtime|957ceb3a-e7ad-4382-8e2d-74f38ce7b208]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.805999Z|runtime|d25bcd86-f05a-4c34-b1a1-e65cdaf0194c]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2025-01-05T09:26:17.806044Z|runtime|f5bffcb3-46e6-4a74-81e5-d25c2509c270]    rv = self.invoke(ctx)
+[MFLOG|0|2025-01-05T09:26:17.806080Z|runtime|3a247f97-83a5-4f5f-a22c-0af42b8b63e4]         ^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.806106Z|runtime|1808fcde-ed2b-4edd-92be-4ef68a174b79]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli_components/utils.py", line 69, in invoke
+[MFLOG|0|2025-01-05T09:26:17.806135Z|runtime|858e93a9-393e-4bcc-aaee-a36242f6f3db]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2025-01-05T09:26:17.806162Z|runtime|d4f1eedd-3c81-470a-aca5-0e030642d639]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.806192Z|runtime|35709dab-cf18-4a10-8eda-0ebcdeaf7952]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2025-01-05T09:26:17.806227Z|runtime|62aa3d54-a98b-4eb9-86c4-6e4fa02c66f5]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2025-01-05T09:26:17.806252Z|runtime|c9ad3f07-aa74-4010-9265-8f8030cbe8d7]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.806271Z|runtime|500138b6-c5f0-4a1d-9838-fad850abac5a]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2025-01-05T09:26:17.806296Z|runtime|3d004b80-ba64-4548-be37-ddf9592fea6d]    return callback(args, kwargs)
+[MFLOG|0|2025-01-05T09:26:17.806319Z|runtime|00d35eea-ab22-4a28-b1ab-399c24a9eb5c]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.806344Z|runtime|90c8fc17-3f81-4a79-b3e3-a0e8b504eada]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2025-01-05T09:26:17.806373Z|runtime|e8260703-711d-4f7b-a706-694eba4ea8a1]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2025-01-05T09:26:17.806396Z|runtime|df0a7dc7-401f-4c6c-aa2b-b5c8a3bbf9e5]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.806432Z|runtime|2a7b91d5-d1bc-4980-9416-8352e5eb34bf]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli_components/step_cmd.py", line 178, in step
+[MFLOG|0|2025-01-05T09:26:17.806458Z|runtime|35315712-137b-41cd-9b0d-d2ccad572f3a]    task.run_step(
+[MFLOG|0|2025-01-05T09:26:17.806483Z|runtime|01967815-463e-4d11-9121-9f54b53c795b]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/task.py", line 653, in run_step
+[MFLOG|0|2025-01-05T09:26:17.806508Z|runtime|75d0c98a-4bc7-4e07-a489-72dacba74992]    self._exec_step_function(step_func)
+[MFLOG|0|2025-01-05T09:26:17.806531Z|runtime|1fa691a2-819b-4766-9e62-55ff7096b05b]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/task.py", line 62, in _exec_step_function
+[MFLOG|0|2025-01-05T09:26:17.806555Z|runtime|cdbfad04-04d5-4faa-8be7-1347c790f856]    step_function()
+[MFLOG|0|2025-01-05T09:26:17.806579Z|runtime|9f84227c-a819-4ba5-9a47-1ffcb02d2526]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/many_kmeans_flow.py", line 80, in analyze
+[MFLOG|0|2025-01-05T09:26:17.806603Z|runtime|20f83570-47a8-4e3f-9806-d8a1c28f61aa]    plt.scatter(self.X[:, 0], self.X[:, 1], c=self.labels, cmap='viridis')
+[MFLOG|0|2025-01-05T09:26:17.806630Z|runtime|9c28cc50-2360-4673-b6ed-42a29b331604]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/matplotlib/_api/deprecation.py", line 453, in wrapper
+[MFLOG|0|2025-01-05T09:26:17.806652Z|runtime|73e9d557-1936-43d0-8ff4-1be1a500457a]    return func(args, kwargs)
+[MFLOG|0|2025-01-05T09:26:17.806677Z|runtime|3b94c5b9-85e3-4d33-82e8-469d1ff1e435]           ^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.806698Z|runtime|a86b8b74-79ca-422d-ada1-8f7f17e25c44]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/matplotlib/pyplot.py", line 3939, in scatter
+[MFLOG|0|2025-01-05T09:26:17.806722Z|runtime|3c183d2f-f584-4ea8-94ef-15ac758a243e]    __ret = gca().scatter(
+[MFLOG|0|2025-01-05T09:26:17.806749Z|runtime|84bce808-dcbe-4a51-be9b-6377691fabc5]            ^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.806773Z|runtime|936187cb-1b80-44c4-92a7-1cfc6208681a]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/matplotlib/_api/deprecation.py", line 453, in wrapper
+[MFLOG|0|2025-01-05T09:26:17.806797Z|runtime|51161145-7ea7-4f55-b752-514c0fcd1633]    return func(args, kwargs)
+[MFLOG|0|2025-01-05T09:26:17.806822Z|runtime|00947c56-d0db-4165-92ee-864272c38168]           ^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:26:17.806845Z|runtime|006522db-c9d4-4bda-a6bb-baa427082eb3]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/matplotlib/__init__.py", line 1521, in inner
+[MFLOG|0|2025-01-05T09:26:17.806872Z|runtime|fb6a518d-1b19-41aa-a1a0-8a44dbc063b3]    return func(
+[MFLOG|0|2025-01-05T09:26:17.806895Z|runtime|fabccf12-f50c-4d32-b697-6799fd7eb458]           ^^^^^
+[MFLOG|0|2025-01-05T09:26:17.806918Z|runtime|7efe6ebc-41fc-4d40-9d2b-632fdc63c493]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 4918, in scatter
+[MFLOG|0|2025-01-05T09:26:17.806947Z|runtime|a15c2d21-1e48-42f5-959a-44f5e0c7359e]    self._parse_scatter_color_args(
+[MFLOG|0|2025-01-05T09:26:17.806973Z|runtime|77c07f60-e292-4128-836c-0cff8923bcae]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/matplotlib/axes/_axes.py", line 4731, in _parse_scatter_color_args
+[MFLOG|0|2025-01-05T09:26:17.806993Z|runtime|b09d6a4a-f651-4021-ab1c-0ef83513af94]    raise invalid_shape_exception(c.size, xsize) from err
+[MFLOG|0|2025-01-05T09:26:17.807011Z|runtime|cd41d950-5802-4993-8eda-37ce466894cc]ValueError: 'c' argument has 4042 elements, which is inconsistent with 'x' and 'y' with size 1.
+[MFLOG|0|2025-01-05T09:26:17.807033Z|runtime|7f6f6449-a7dc-422e-961b-f93f6d349473]
+[MFLOG|0|2025-01-05T09:26:17.807746Z|runtime|28599df8-b0e9-4836-9445-4306ce32e2be]Task failed.

@@ -1,0 +1,9 @@
+[MFLOG|0|2025-01-05T09:26:15.412009Z|runtime|8c38a175-ba88-4d04-8fc3-67ee51e9a3a5]Step start initiated
+[MFLOG|0|2025-01-05T09:26:15.416464Z|runtime|286d8887-e729-4609-b309-df901e6fe0e7]File exists
+[MFLOG|0|2025-01-05T09:26:15.416552Z|runtime|8bcad237-c4f7-4aa0-8da7-3024591a1de0]Data loaded with shape: (4042, 3)
+[MFLOG|0|2025-01-05T09:26:15.416589Z|runtime|ecd80f23-f262-408f-8a85-8f1e10b5f7de]Columns in the dataset: Index(['14/11/23 10.04 - Pesan dan panggilan dienkripsi secara end-to-end. Tidak seorang pun di luar chat ini',
+[MFLOG|0|2025-01-05T09:26:15.416898Z|runtime|1587286e-8297-484b-ad31-5ef19f61f0f9]       ' termasuk WhatsApp',
+[MFLOG|0|2025-01-05T09:26:15.417075Z|runtime|5f794667-c9d3-44cf-8f88-9825c91dfe14]       ' yang dapat membaca atau mendengarkannya. Ketuk untuk info selengkapnya.'],
+[MFLOG|0|2025-01-05T09:26:15.417124Z|runtime|b10f87ce-b54d-4f90-986d-9d253cc8df56]      dtype='object')
+[MFLOG|0|2025-01-05T09:26:15.417160Z|runtime|e421d782-4102-463f-96d5-554270a1c699]Data cleaned and ready for processing
+[MFLOG|0|2025-01-05T09:26:15.463700Z|runtime|32d4eafe-d50e-4d41-8fa0-02ea0f17e887]TF-IDF matrix shape: (4042, 4388)
