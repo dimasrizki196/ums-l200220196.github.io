@@ -1,0 +1,2 @@
+[MFLOG|0|2025-01-05T09:12:33.288283Z|runtime|de15ce41-c0d6-487c-9760-489c74889d9f]Data loaded with shape: (4042, 3)
+[MFLOG|0|2025-01-05T09:12:33.288439Z|runtime|9c78e45d-333b-4013-9663-0fc4295d5835]Numeric columns selected for clustering: Index([], dtype='object')

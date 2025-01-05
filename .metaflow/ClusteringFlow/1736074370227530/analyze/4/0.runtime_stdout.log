@@ -1,0 +1,63 @@
+[MFLOG|0|2025-01-05T10:54:27.729682Z|runtime|e43631b6-588b-4aa2-a0cc-2fd8c7cbcc59]Clustering with 3 clusters
+[MFLOG|0|2025-01-05T10:54:27.760398Z|runtime|7493c50e-68b5-4d8e-9280-d8d4383f403b]Top 3 entries from each cluster for 3 clusters:
+[MFLOG|0|2025-01-05T10:54:27.763848Z|runtime|8222489d-632d-4dcb-b8f8-de4d5d83981a]    14/11/23 10.04 - Pesan dan panggilan dienkripsi secara end-to-end. Tidak seorang pun di luar chat ini  ... Cluster
+[MFLOG|0|2025-01-05T10:54:27.797437Z|runtime|b2fe9c7e-a159-4b59-8b06-7492b4c2b5fa]0       260823 19.05 -   membuat grup GDSC UMS 2023-24                                                     ...       1
+[MFLOG|0|2025-01-05T10:54:27.797613Z|runtime|a47aace3-b69a-477f-a90e-0a65a54a87f8]1    141123 10.04 - Anda bergabung menggunakan taut...                                                     ...       0
+[MFLOG|0|2025-01-05T10:54:27.797675Z|runtime|ecfa9120-4ceb-4985-985f-e71df32a9d05]2    141123 10.11 - 62 897-3498-332 bergabung mengg...                                                     ...       0
+[MFLOG|0|2025-01-05T10:54:27.797742Z|runtime|8e938af5-1540-42be-b015-556be4bd2e9a]3    141123 10.44 - 62 881-4165-101: gaisss yang ma...                                                     ...       0
+[MFLOG|0|2025-01-05T10:54:27.797768Z|runtime|be8b8b0f-5bb3-495f-94b5-6e6cc71ac080]7    141123 13.32 - Kode keamanan Anda dengan  fara...                                                     ...       1
+[MFLOG|0|2025-01-05T10:54:27.797794Z|runtime|d45f26f3-cefb-4cce-a011-cd367635cf33]49   181123 12.21 - Kode keamanan Anda dengan  Muha...                                                     ...       1
+[MFLOG|0|2025-01-05T10:54:27.797819Z|runtime|efd99046-728d-4e53-a2a0-28e85c7472fd]212                                             4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:54:27.797842Z|runtime|d7b9d37b-1bd3-41db-a553-c40217f58491]224                                             4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:54:27.797867Z|runtime|5eac6612-a607-4866-a36d-badb25dc6083]236                                             4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:54:27.797890Z|runtime|725ee269-f82c-4a27-94c0-a2d6f224c007]
+[MFLOG|0|2025-01-05T10:54:27.797914Z|runtime|17200d4e-7641-4084-99f7-e5adf65016db][9 rows x 4 columns]
+[MFLOG|0|2025-01-05T10:54:27.797939Z|runtime|6ec74706-b4dc-47da-8c12-9aa41e9b9bbb]Cluster 0 top 3 words: 62, 8814165101, tidak
+[MFLOG|0|2025-01-05T10:54:29.620073Z|runtime|93eee10e-b4df-4a6d-afa8-1414f2c866a2]Cluster 1 top 3 words: krl, adan, nendra
+[MFLOG|0|2025-01-05T10:54:29.620328Z|runtime|39e885bb-f29e-4f8d-9e1a-940420844f01]Cluster 2 top 3 words: 4yona, zwinkle, ari
+[MFLOG|0|2025-01-05T10:54:29.620399Z|runtime|4d76f180-29ec-4fea-b25a-6d8259f184ff]Clustering with 4 clusters
+[MFLOG|0|2025-01-05T10:54:29.628758Z|runtime|92fdd5d2-93d6-4bd0-99c4-cb8c0dc08189]Top 3 entries from each cluster for 4 clusters:
+[MFLOG|0|2025-01-05T10:54:29.631461Z|runtime|0eafcee4-4f9e-459b-bbd7-f1354776b515]    14/11/23 10.04 - Pesan dan panggilan dienkripsi secara end-to-end. Tidak seorang pun di luar chat ini  ... Cluster
+[MFLOG|0|2025-01-05T10:54:29.639631Z|runtime|ff156b7c-ade8-4b7d-b4dc-700e631e7742]0       260823 19.05 -   membuat grup GDSC UMS 2023-24                                                     ...       1
+[MFLOG|0|2025-01-05T10:54:29.639734Z|runtime|b63eb3a9-903f-417c-9c9b-b3299ea08efe]1    141123 10.04 - Anda bergabung menggunakan taut...                                                     ...       0
+[MFLOG|0|2025-01-05T10:54:29.639789Z|runtime|eee8034d-d8a2-4fb8-b119-705e81ee38b3]2    141123 10.11 - 62 897-3498-332 bergabung mengg...                                                     ...       0
+[MFLOG|0|2025-01-05T10:54:29.639826Z|runtime|d76c8800-f29c-46e5-8a5a-fd88ece78070]3    141123 10.44 - 62 881-4165-101: gaisss yang ma...                                                     ...       3
+[MFLOG|0|2025-01-05T10:54:29.639904Z|runtime|9af1f486-a0e1-44c2-a37c-6140e27a4359]4    141123 10.45 - 62 881-4165-101: nanti speakern...                                                     ...       3
+[MFLOG|0|2025-01-05T10:54:29.640088Z|runtime|72a16527-195f-442e-9db0-cbc31235bcdd]5    141123 10.51 - 62 857-5145-0622 bergabung meng...                                                     ...       0
+[MFLOG|0|2025-01-05T10:54:29.640153Z|runtime|7998bb7a-171e-439a-b525-a4e25a29076d]7    141123 13.32 - Kode keamanan Anda dengan  fara...                                                     ...       1
+[MFLOG|0|2025-01-05T10:54:29.640202Z|runtime|7dbaae4b-792e-4a73-8cd7-0629a02ce582]27          171123 09.38 - 62 881-4165-101: hello guys                                                     ...       3
+[MFLOG|0|2025-01-05T10:54:29.640240Z|runtime|5c45411b-cf5f-452b-b069-8e298788e8a9]43   171123 13.55 - 62 857-0222-0093: Lohe padahal ...                                                     ...       1
+[MFLOG|0|2025-01-05T10:54:29.640273Z|runtime|02a609a9-d54c-40ba-85df-dbb1e878e6b3]212                                             4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:54:29.640305Z|runtime|1b730d99-ff23-43f8-80c2-3dbcc8dc8a94]224                                             4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:54:29.640337Z|runtime|4862f3c1-b49d-4109-8382-0a4b415a600c]236                                             4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:54:29.640370Z|runtime|709e35e5-6d93-4d8b-86ad-7c8e73881e1b]
+[MFLOG|0|2025-01-05T10:54:29.640403Z|runtime|3bf0a780-67f9-445a-8301-baaa88dc54c3][12 rows x 4 columns]
+[MFLOG|0|2025-01-05T10:54:29.640432Z|runtime|93043fe9-d97e-46aa-8328-64dd1901584b]Cluster 0 top 3 words: ini, pesan, menggunakan
+[MFLOG|0|2025-01-05T10:54:30.799484Z|runtime|24f3d2c0-89d4-4e50-a62a-f98f0444f4a9]Cluster 1 top 3 words: krl, adan, nendra
+[MFLOG|0|2025-01-05T10:54:30.799761Z|runtime|f8309a3c-d301-46e7-af70-eab5b4c64076]Cluster 2 top 3 words: 4yona, zwinkle, ari
+[MFLOG|0|2025-01-05T10:54:30.799868Z|runtime|f7033d83-d72a-4054-89bd-cb494663d96d]Cluster 3 top 3 words: 62, 8814165101, tidak
+[MFLOG|0|2025-01-05T10:54:30.799943Z|runtime|d1516519-5564-4514-a7a3-f705210f9f9b]Clustering with 5 clusters
+[MFLOG|0|2025-01-05T10:54:30.811056Z|runtime|b90ba8f6-3dd9-4da1-b722-124086d8abb4]Top 3 entries from each cluster for 5 clusters:
+[MFLOG|0|2025-01-05T10:54:30.814831Z|runtime|3e2a4909-087d-4d39-be44-2065a08cb592]     14/11/23 10.04 - Pesan dan panggilan dienkripsi secara end-to-end. Tidak seorang pun di luar chat ini  ... Cluster
+[MFLOG|0|2025-01-05T10:54:30.823150Z|runtime|67577917-5e37-45e7-b34a-f294d185c5ab]0        260823 19.05 -   membuat grup GDSC UMS 2023-24                                                     ...       1
+[MFLOG|0|2025-01-05T10:54:30.823229Z|runtime|c68f3a90-f94b-4fa7-b33e-b547ff27b76e]1     141123 10.04 - Anda bergabung menggunakan taut...                                                     ...       0
+[MFLOG|0|2025-01-05T10:54:30.823282Z|runtime|9f625dca-8ed8-4621-99b2-5c60965b2afb]2     141123 10.11 - 62 897-3498-332 bergabung mengg...                                                     ...       0
+[MFLOG|0|2025-01-05T10:54:30.823329Z|runtime|b93ee483-a12f-41cb-91d1-499d0b63a5f6]3     141123 10.44 - 62 881-4165-101: gaisss yang ma...                                                     ...       3
+[MFLOG|0|2025-01-05T10:54:30.823374Z|runtime|47a144f6-c484-4ec3-ae0c-ef1aaaec5e06]4     141123 10.45 - 62 881-4165-101: nanti speakern...                                                     ...       3
+[MFLOG|0|2025-01-05T10:54:30.823413Z|runtime|bb8c3e48-e6a7-45f9-827d-91d5df2bc07e]5     141123 10.51 - 62 857-5145-0622 bergabung meng...                                                     ...       0
+[MFLOG|0|2025-01-05T10:54:30.823456Z|runtime|37424579-4d36-4e8c-9076-1d88afe3c5f1]7     141123 13.32 - Kode keamanan Anda dengan  fara...                                                     ...       1
+[MFLOG|0|2025-01-05T10:54:30.823496Z|runtime|b61f7ad1-59f9-474e-91f8-9f728424e3a6]27           171123 09.38 - 62 881-4165-101: hello guys                                                     ...       3
+[MFLOG|0|2025-01-05T10:54:30.823541Z|runtime|f2825306-d0c8-4b4b-bacc-0f704cbab098]43    171123 13.55 - 62 857-0222-0093: Lohe padahal ...                                                     ...       1
+[MFLOG|0|2025-01-05T10:54:30.823580Z|runtime|9b7711ac-d1f7-4637-abd6-72f5e9f1ef1c]86            201123 19.33 - 62 823-3916-8375: gass yuk                                                     ...       4
+[MFLOG|0|2025-01-05T10:54:30.823616Z|runtime|7e11a60b-e276-4f6f-8b9a-59953889d6d3]180   221123 19.05 - 62 881-4165-101: yuk udh mau di...                                                     ...       4
+[MFLOG|0|2025-01-05T10:54:30.823663Z|runtime|cb62ec06-1eeb-4079-ab28-541b06149197]212                                              4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:54:30.823711Z|runtime|32a7ec3b-5e54-427a-93d2-716b15042154]224                                              4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:54:30.823747Z|runtime|e8c72975-2991-4373-9ff0-77cb7f5a1aa3]236                                              4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:54:30.823783Z|runtime|438bc4eb-e44f-48c7-afa6-659cd8cc12ea]1151  241123 21.03 - 62 821-9750-4499: on cam yuk guyss                                                     ...       4
+[MFLOG|0|2025-01-05T10:54:30.823816Z|runtime|5af1590a-d3a9-4157-b8fc-1be65a80ff5b]
+[MFLOG|0|2025-01-05T10:54:30.823850Z|runtime|6f6812e8-af44-46b1-a46a-38105f5539ae][15 rows x 4 columns]
+[MFLOG|0|2025-01-05T10:54:30.823890Z|runtime|4c2dc8ed-6662-478c-881d-ee94a39912ac]Cluster 0 top 3 words: ini, pesan, menggunakan
+[MFLOG|0|2025-01-05T10:54:31.700251Z|runtime|0a19848f-3062-4f1b-87e0-dd1570a5f323]Cluster 1 top 3 words: krl, adan, nendra
+[MFLOG|0|2025-01-05T10:54:31.700318Z|runtime|af448238-28f0-4af3-8225-9912419ffd43]Cluster 2 top 3 words: 4yona, zwinkle, ari
+[MFLOG|0|2025-01-05T10:54:31.700377Z|runtime|f651b301-eaaa-4d04-939e-42cb1b58df07]Cluster 3 top 3 words: 62, 8814165101, tidak
+[MFLOG|0|2025-01-05T10:54:31.700428Z|runtime|4a61af5f-8272-46b6-92ac-a9566b798f69]Cluster 4 top 3 words: yuk, 8814165101, 62

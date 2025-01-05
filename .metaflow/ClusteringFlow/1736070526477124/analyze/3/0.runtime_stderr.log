@@ -1,0 +1,40 @@
+[MFLOG|0|2025-01-05T09:48:49.812065Z|runtime|0af1368e-9cb9-4c1c-972a-625ecd84fdcf]2025-01-05 16:48:49.811 python[5254:148524] +[IMKClient subclass]: chose IMKClient_Modern
+[MFLOG|0|2025-01-05T09:48:52.328651Z|runtime|d79e7290-91f5-4aba-a4cf-f69499ccfe51]2025-01-05 16:48:49.811 python[5254:148524] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+[MFLOG|0|2025-01-05T09:48:52.328790Z|runtime|c9b1c30d-caeb-49c7-882e-9cc4fd634a94]<flow ClusteringFlow step analyze> failed:
+[MFLOG|0|2025-01-05T09:48:52.337975Z|runtime|bd75b665-fd29-4e83-a5a8-746182e7444f]    Internal error
+[MFLOG|0|2025-01-05T09:48:52.341114Z|runtime|7935c1ad-784d-40e9-80b2-022c753449ca]Traceback (most recent call last):
+[MFLOG|0|2025-01-05T09:48:52.341176Z|runtime|0d563e86-96f3-43e0-9994-e5248cd0fc41]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli.py", line 629, in main
+[MFLOG|0|2025-01-05T09:48:52.341220Z|runtime|fdcab1df-0b5d-4b03-aed2-f3a48d4254b4]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2025-01-05T09:48:52.341282Z|runtime|bd85a43f-cb32-48b9-ba3f-5e2aa0c0c8c6]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2025-01-05T09:48:52.341320Z|runtime|45df9fe8-f2dd-4319-98ea-e9fdb945c234]    return self.main(args, kwargs)
+[MFLOG|0|2025-01-05T09:48:52.454636Z|runtime|43971e63-d397-4439-b555-16fda74c3024]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:48:52.454781Z|runtime|0d5fdfbb-58e2-4a32-a4e0-8f80114e5ccc]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2025-01-05T09:48:52.454829Z|runtime|c4d3c891-c621-45ea-81d2-5b959e6f7637]    rv = self.invoke(ctx)
+[MFLOG|0|2025-01-05T09:48:52.454862Z|runtime|fc456353-37a8-413d-9790-0d0ea3ddb828]         ^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:48:52.454893Z|runtime|7078347f-9ada-46ca-aec3-d099588d6da5]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli_components/utils.py", line 69, in invoke
+[MFLOG|0|2025-01-05T09:48:52.454922Z|runtime|f5a989f8-d81a-4e4a-a459-36e06e837493]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2025-01-05T09:48:52.454956Z|runtime|d3bca9bf-7a5a-437f-8043-fd0114e03343]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:48:52.454984Z|runtime|7be10f3d-a2ee-4c55-b029-f4e1debbe771]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2025-01-05T09:48:52.455007Z|runtime|877b32bf-5ee1-4b88-bcea-0a39a8d73b26]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2025-01-05T09:48:52.455033Z|runtime|780eec68-af03-4233-8a13-ea71525b33ea]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:48:52.455059Z|runtime|7eb2aa4b-a4ea-4ee6-b83c-e3453b12faef]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2025-01-05T09:48:52.455088Z|runtime|94a40dba-fcde-49bf-ba01-480bb643c5d0]    return callback(args, kwargs)
+[MFLOG|0|2025-01-05T09:48:52.455111Z|runtime|d76159f2-5f3c-44e4-b61f-de2a5c0c8283]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:48:52.455133Z|runtime|64f018f1-e95a-47f5-941f-170e3960e3e3]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2025-01-05T09:48:52.455160Z|runtime|fa064d38-b950-42c8-8039-79bf0060618a]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2025-01-05T09:48:52.455187Z|runtime|11b15c35-dde5-448e-ad8e-8816286c8041]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:48:52.455215Z|runtime|9ac90bae-c0a9-4ba3-88df-f47cc2939971]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli_components/step_cmd.py", line 178, in step
+[MFLOG|0|2025-01-05T09:48:52.455242Z|runtime|aef81bd6-088f-4d97-8750-3e877dba0cdc]    task.run_step(
+[MFLOG|0|2025-01-05T09:48:52.455267Z|runtime|0d7f7ac6-c7a8-401a-800c-5b1fd4c15ac4]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/task.py", line 653, in run_step
+[MFLOG|0|2025-01-05T09:48:52.455290Z|runtime|13b94cce-8e70-4008-954b-1e40cf7ae7fe]    self._exec_step_function(step_func)
+[MFLOG|0|2025-01-05T09:48:52.455312Z|runtime|d5587f9d-8796-49a7-8ea9-35a677b3d1a6]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/task.py", line 62, in _exec_step_function
+[MFLOG|0|2025-01-05T09:48:52.455344Z|runtime|d242c71c-87e8-40b0-857b-82bc6f97e4e2]    step_function()
+[MFLOG|0|2025-01-05T09:48:52.455371Z|runtime|1bd94713-3a31-4457-82ba-2eefc8dd001d]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/many_kmeans_flow.py", line 99, in analyze
+[MFLOG|0|2025-01-05T09:48:52.455395Z|runtime|23f90ded-667c-4b7e-ae84-04564d6cca11]    if ' termasuk WhatsApp' not in self.df_cleaned.columns:
+[MFLOG|0|2025-01-05T09:48:52.455419Z|runtime|464b0c48-0402-49da-8e42-77a59ea1ef3a]                                   ^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:48:52.455443Z|runtime|18acbdf9-0660-4917-b437-69dfe1240dda]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+[MFLOG|0|2025-01-05T09:48:52.455465Z|runtime|ca85775c-58b9-4686-ba2b-234345104be3]    return object.__getattribute__(self, name)
+[MFLOG|0|2025-01-05T09:48:52.455490Z|runtime|7804e8c0-0e5c-4e65-8941-20c86e1b62df]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:48:52.455514Z|runtime|7fd3b69c-e52c-4fbb-a270-ca5eebec18ac]AttributeError: 'Series' object has no attribute 'columns'
+[MFLOG|0|2025-01-05T09:48:52.455544Z|runtime|8f3d3141-13bb-4910-81cf-5153573a70c4]
+[MFLOG|0|2025-01-05T09:48:52.456250Z|runtime|9179dec6-3731-4069-9d80-edcd9de72908]Task failed.

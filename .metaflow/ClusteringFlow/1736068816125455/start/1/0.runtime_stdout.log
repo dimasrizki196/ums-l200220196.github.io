@@ -1,0 +1,9 @@
+[MFLOG|0|2025-01-05T09:20:16.860245Z|runtime|ab1d0f9b-6bc1-4b9b-92bd-e98bd8add289]Step start initiated
+[MFLOG|0|2025-01-05T09:20:16.863930Z|runtime|e8a3b74c-a2fc-4afb-a917-f122215d918a]File exists
+[MFLOG|0|2025-01-05T09:20:16.863997Z|runtime|411a7b7e-c970-49f1-b7ed-65892de43127]Data loaded with shape: (4042, 3)
+[MFLOG|0|2025-01-05T09:20:16.864028Z|runtime|4a50fd1d-6355-4a63-8576-5b0deae0f0aa]Columns in the dataset: Index(['14/11/23 10.04 - Pesan dan panggilan dienkripsi secara end-to-end. Tidak seorang pun di luar chat ini',
+[MFLOG|0|2025-01-05T09:20:16.864157Z|runtime|a29287c7-bd7a-47df-9a06-04b9c0b7ae68]       ' termasuk WhatsApp',
+[MFLOG|0|2025-01-05T09:20:16.864225Z|runtime|02e6ba09-7168-45d4-808e-e2cf3bf1bd03]       ' yang dapat membaca atau mendengarkannya. Ketuk untuk info selengkapnya.'],
+[MFLOG|0|2025-01-05T09:20:16.864264Z|runtime|faa693aa-2986-4510-94a1-d9cca9cf6bb5]      dtype='object')
+[MFLOG|0|2025-01-05T09:20:16.864294Z|runtime|a6972fdc-b094-4689-9009-9043be440c73]Numeric columns: Index([], dtype='object')
+[MFLOG|0|2025-01-05T09:20:16.977236Z|runtime|ec3986fc-bf77-4b2a-ba3d-75ff2763d42e]No numeric columns found!

@@ -1,0 +1,7 @@
+[MFLOG|0|2025-01-05T09:19:54.538603Z|runtime|5fc95f6e-a564-4113-b2ad-2fc51f6b8552]Files in current directory: ['data_group.csv', 'many_kmeans_flow.py', 'pembersihan.py', '.metaflow', 'data_group_cleaned.csv', 'ujicoba.py', 'scale_data.py', 'myenv']
+[MFLOG|0|2025-01-05T09:19:54.542312Z|runtime|93f491a5-e603-46e2-a580-7dd7f9ae3dff]Data loaded with shape: (4042, 3)
+[MFLOG|0|2025-01-05T09:19:54.542423Z|runtime|320c830b-a9cf-4a76-a868-f6c74c200233]Columns in the dataset: Index(['14/11/23 10.04 - Pesan dan panggilan dienkripsi secara end-to-end. Tidak seorang pun di luar chat ini',
+[MFLOG|0|2025-01-05T09:19:54.542509Z|runtime|6d5f889d-0935-4041-875c-e63bb5f6421e]       ' termasuk WhatsApp',
+[MFLOG|0|2025-01-05T09:19:54.542587Z|runtime|b308df25-825d-44c5-887e-385d14165f5c]       ' yang dapat membaca atau mendengarkannya. Ketuk untuk info selengkapnya.'],
+[MFLOG|0|2025-01-05T09:19:54.542622Z|runtime|26de9910-9baf-4952-b13d-28f783c1fcab]      dtype='object')
+[MFLOG|0|2025-01-05T09:19:54.542654Z|runtime|2446cdfe-2c3f-4554-8721-fa12d33f6b3f]No numeric columns found in the dataset!

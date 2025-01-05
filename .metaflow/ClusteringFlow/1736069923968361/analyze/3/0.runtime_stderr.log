@@ -1,0 +1,56 @@
+[MFLOG|0|2025-01-05T09:38:47.326103Z|runtime|bcf03ebe-b86f-4061-afc9-0ac007c334df]2025-01-05 16:38:47.325 python[5114:142318] +[IMKClient subclass]: chose IMKClient_Modern
+[MFLOG|0|2025-01-05T09:38:54.865656Z|runtime|a495e92a-a73a-444e-bb1d-806355bb6bec]2025-01-05 16:38:47.325 python[5114:142318] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+[MFLOG|0|2025-01-05T09:38:54.865823Z|runtime|9de8ce9d-83d1-4190-b98d-b93c524bd3a0]<flow ClusteringFlow step analyze> failed:
+[MFLOG|0|2025-01-05T09:38:54.875378Z|runtime|365b8ad4-2125-43d2-b019-af32701a257e]    Internal error
+[MFLOG|0|2025-01-05T09:38:54.876612Z|runtime|57f51686-9910-450d-aa7b-8ed9c6ae230b]Traceback (most recent call last):
+[MFLOG|0|2025-01-05T09:38:54.876690Z|runtime|2760efb5-5da5-4de3-9743-a0403c780eb7]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3805, in get_loc
+[MFLOG|0|2025-01-05T09:38:54.876858Z|runtime|263d5288-06ed-496f-a26e-9c40bd2d8ea4]    return self._engine.get_loc(casted_key)
+[MFLOG|0|2025-01-05T09:38:54.876925Z|runtime|dde9291b-19f3-4edd-b3ef-88535273a950]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:38:54.876960Z|runtime|7c27d748-9703-4e9d-83a9-6f0eff865299]  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+[MFLOG|0|2025-01-05T09:38:54.877061Z|runtime|e50496e2-256d-4795-95e6-a3b76e583bfa]  File "index.pyx", line 175, in pandas._libs.index.IndexEngine.get_loc
+[MFLOG|0|2025-01-05T09:38:54.877130Z|runtime|99bd48fd-5b6f-4787-af74-dc013d51435b]  File "pandas/_libs/index_class_helper.pxi", line 70, in pandas._libs.index.Int64Engine._check_type
+[MFLOG|0|2025-01-05T09:38:54.877191Z|runtime|7ec39462-28b8-4395-ac2c-b1ff79278712]KeyError: 'text_column'
+[MFLOG|0|2025-01-05T09:38:54.877288Z|runtime|f2d467b8-b3a7-45eb-8239-fe177c7c68cf]
+[MFLOG|0|2025-01-05T09:38:54.877318Z|runtime|aff849cb-8b0b-4ab0-bc59-b7d6faa98dd7]The above exception was the direct cause of the following exception:
+[MFLOG|0|2025-01-05T09:38:54.877365Z|runtime|a2a52d16-8ec9-4b05-bfe4-2ddba3ae2568]
+[MFLOG|0|2025-01-05T09:38:54.877443Z|runtime|1dbd19cc-04cc-4791-bf98-35c029f438ba]Traceback (most recent call last):
+[MFLOG|0|2025-01-05T09:38:54.877477Z|runtime|3519197e-5c57-4300-8491-6f1e9c1422cc]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli.py", line 629, in main
+[MFLOG|0|2025-01-05T09:38:54.877507Z|runtime|b8dc757b-e978-4d74-814d-8d7c276ebbf7]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2025-01-05T09:38:54.877537Z|runtime|79da91ce-3a48-47b6-b7d7-0cdf980f0c33]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2025-01-05T09:38:54.877573Z|runtime|f2fcab73-97ff-4c5a-a8e0-b61433ac4b65]    return self.main(args, kwargs)
+[MFLOG|0|2025-01-05T09:38:54.990292Z|runtime|5f729421-8655-442a-a5cb-3f17d400d4a1]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:38:54.990432Z|runtime|310bb0d3-5f15-4665-9e52-62a98491f289]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2025-01-05T09:38:54.990479Z|runtime|dc9024f4-40a0-4d8e-990b-8744face886a]    rv = self.invoke(ctx)
+[MFLOG|0|2025-01-05T09:38:54.990508Z|runtime|217f2253-5299-4629-a025-5b2be5353f49]         ^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:38:54.990537Z|runtime|88d78e31-9906-45c7-8123-84637fb1fbe9]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli_components/utils.py", line 69, in invoke
+[MFLOG|0|2025-01-05T09:38:54.990562Z|runtime|012d9aa3-8eb5-4cc2-9734-dd3bedf43090]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2025-01-05T09:38:54.990588Z|runtime|18040b00-a4b7-4db0-8cdc-d439d53b2e57]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:38:54.990617Z|runtime|4259e6e0-05c9-4aef-8686-6346b7d8273d]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2025-01-05T09:38:54.990647Z|runtime|8200d9ce-0e5d-4012-a7d5-563c223d2972]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2025-01-05T09:38:54.990673Z|runtime|c5c51aad-20ca-4ffc-bbb0-8a09c0f404ba]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:38:54.990696Z|runtime|74942985-b768-435a-b3e6-b193218216ae]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2025-01-05T09:38:54.990720Z|runtime|a0e1d65a-96c6-4f55-bd6e-bae201033cef]    return callback(args, kwargs)
+[MFLOG|0|2025-01-05T09:38:54.990755Z|runtime|dfb4baa2-eb77-4e48-b45d-3652fe601f91]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:38:54.990780Z|runtime|1616a255-8ef1-423b-b345-45d5efba1e2d]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2025-01-05T09:38:54.990809Z|runtime|035d1e03-c7fc-4bee-a458-dd456e55b35d]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2025-01-05T09:38:54.990831Z|runtime|e89ded9f-e038-4932-b8c1-6e3eb6606cf8]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:38:54.990855Z|runtime|18aa49c4-a131-425a-bde5-1117597b5f97]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli_components/step_cmd.py", line 178, in step
+[MFLOG|0|2025-01-05T09:38:54.990878Z|runtime|92dfee41-e664-46c0-848c-93944957c97c]    task.run_step(
+[MFLOG|0|2025-01-05T09:38:54.990904Z|runtime|9afcdb9a-46c5-4dff-a13e-b26c5f63b0ba]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/task.py", line 653, in run_step
+[MFLOG|0|2025-01-05T09:38:54.990928Z|runtime|0125a4f9-1a7b-4e87-a75b-d6f916289552]    self._exec_step_function(step_func)
+[MFLOG|0|2025-01-05T09:38:54.990956Z|runtime|92d10c30-74cd-41ac-9680-8b3e43e2293f]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/task.py", line 62, in _exec_step_function
+[MFLOG|0|2025-01-05T09:38:54.990983Z|runtime|a3b71014-f943-49ac-a534-a2f39f5ad0b6]    step_function()
+[MFLOG|0|2025-01-05T09:38:54.991006Z|runtime|ac64e588-557e-4e35-b8d9-1841a3962c69]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/many_kmeans_flow.py", line 99, in analyze
+[MFLOG|0|2025-01-05T09:38:54.991029Z|runtime|b48733af-1197-4841-bad2-93c25f7c7125]    tfidf_matrix = tfidf_vectorizer.fit_transform(self.df_cleaned['text_column'])  # Asumsi kolom teks di dataframe
+[MFLOG|0|2025-01-05T09:38:54.991052Z|runtime|48dab22c-1e28-4ecf-8521-d1411f3ad0f3]                                                  ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:38:54.991075Z|runtime|02bb2e12-7a2f-414e-931b-b3e52d15d3f3]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/pandas/core/series.py", line 1121, in __getitem__
+[MFLOG|0|2025-01-05T09:38:54.991097Z|runtime|bfe12b0a-03a7-4136-88be-36131b373297]    return self._get_value(key)
+[MFLOG|0|2025-01-05T09:38:54.991119Z|runtime|4faa0f55-f211-47a7-8423-e587268a6363]           ^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:38:54.991141Z|runtime|ff0c62ba-1aea-4f88-9ada-efe6e7afd0e4]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/pandas/core/series.py", line 1237, in _get_value
+[MFLOG|0|2025-01-05T09:38:54.991163Z|runtime|b23bf5c7-a95b-47b0-bdfd-53133e7a4656]    loc = self.index.get_loc(label)
+[MFLOG|0|2025-01-05T09:38:54.991187Z|runtime|2a418ac8-f474-40f4-aa09-668c098902d3]          ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:38:54.991209Z|runtime|92566bb6-63bb-435f-b5c8-b2df696c497e]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+[MFLOG|0|2025-01-05T09:38:54.991231Z|runtime|34bc6ce0-9a7e-4c54-993f-f952c5c65e64]    raise KeyError(key) from err
+[MFLOG|0|2025-01-05T09:38:54.991254Z|runtime|71504049-57fb-4e5f-a30e-f7ffe289b841]KeyError: 'text_column'
+[MFLOG|0|2025-01-05T09:38:54.991278Z|runtime|8350bee8-b7ee-4e35-82e0-aecd462f673a]
+[MFLOG|0|2025-01-05T09:38:54.992068Z|runtime|e0d62cd0-9ef1-4b90-84fc-390eb8a28cfb]Task failed.

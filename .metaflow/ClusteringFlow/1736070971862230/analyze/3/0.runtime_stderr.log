@@ -1,0 +1,35 @@
+[MFLOG|0|2025-01-05T09:56:14.742781Z|runtime|142345c6-17ab-45e9-8ce3-adff533db027]<flow ClusteringFlow step analyze> failed:
+[MFLOG|0|2025-01-05T09:56:14.778984Z|runtime|f0aa72c1-7a19-4ccc-bac7-9c90d821558c]    Internal error
+[MFLOG|0|2025-01-05T09:56:14.780949Z|runtime|843573ff-ef37-4a75-a675-52e14bcb3fa7]Traceback (most recent call last):
+[MFLOG|0|2025-01-05T09:56:14.781014Z|runtime|dfd8beb3-9401-44d2-b4ac-f8137e1aee6e]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli.py", line 629, in main
+[MFLOG|0|2025-01-05T09:56:14.781045Z|runtime|0615cc7f-558e-437a-b0d6-0b01ce0bfb4f]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2025-01-05T09:56:14.781070Z|runtime|42276544-fb90-4322-af40-11500851add3]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2025-01-05T09:56:14.781100Z|runtime|314af654-4b39-4292-8196-19feee5b0b08]    return self.main(args, kwargs)
+[MFLOG|0|2025-01-05T09:56:14.891937Z|runtime|22e451cb-32d0-4a92-95a1-ef1ca8ec63b5]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:56:14.892062Z|runtime|f53d33b9-d7b8-4bf6-8705-052de7b09915]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2025-01-05T09:56:14.892106Z|runtime|f2c0a5e4-4263-41e7-a99a-51c266095631]    rv = self.invoke(ctx)
+[MFLOG|0|2025-01-05T09:56:14.892136Z|runtime|fc8babe8-4b46-4d26-bed4-3a8fb3b0deb3]         ^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:56:14.892162Z|runtime|7ef0f264-0b51-4289-9ce1-ee67f811db6b]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli_components/utils.py", line 69, in invoke
+[MFLOG|0|2025-01-05T09:56:14.892185Z|runtime|3df522d1-afd5-4a38-9198-d10d2dfe1427]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2025-01-05T09:56:14.892209Z|runtime|e1feef58-148f-48d6-bfd8-202e5d625935]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:56:14.892233Z|runtime|db2fa493-4359-4f6b-a3c2-bbc054e48feb]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2025-01-05T09:56:14.892256Z|runtime|e756d82e-e51a-4dc4-bf97-62dcf2e811b3]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2025-01-05T09:56:14.892281Z|runtime|80221596-c2d4-4a2f-8108-bb6da5509eda]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:56:14.892304Z|runtime|f72e29ea-6498-44f4-97b0-6873de13be87]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2025-01-05T09:56:14.892328Z|runtime|d8946ffa-b494-4cdf-bae3-3557313b7c5e]    return callback(args, kwargs)
+[MFLOG|0|2025-01-05T09:56:14.892351Z|runtime|dfef7427-0eb9-410e-8afb-80d2f6564f51]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:56:14.892371Z|runtime|5b1a860a-7ed3-42d5-b4dd-d5a58b5bc245]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2025-01-05T09:56:14.892398Z|runtime|78916ab2-2bad-4316-925a-2df9212f07bc]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2025-01-05T09:56:14.892419Z|runtime|7a4497d7-23de-4896-88d0-12873b0baf85]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:56:14.892443Z|runtime|e852cf03-99f4-458a-8301-79b5cf13f12a]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli_components/step_cmd.py", line 178, in step
+[MFLOG|0|2025-01-05T09:56:14.892465Z|runtime|e46a4567-3c06-4468-9153-d661d658f237]    task.run_step(
+[MFLOG|0|2025-01-05T09:56:14.892488Z|runtime|7699ab9c-30fa-425c-8d05-450c4e7fea5c]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/task.py", line 653, in run_step
+[MFLOG|0|2025-01-05T09:56:14.892512Z|runtime|26e0a003-5bf8-422a-a329-b529d1b3732b]    self._exec_step_function(step_func)
+[MFLOG|0|2025-01-05T09:56:14.892534Z|runtime|b86db58b-9618-4f85-bf0c-a6e9cd75a11f]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/task.py", line 62, in _exec_step_function
+[MFLOG|0|2025-01-05T09:56:14.892556Z|runtime|1d4e9b44-4ad0-41d7-895d-314d25f25e24]    step_function()
+[MFLOG|0|2025-01-05T09:56:14.892577Z|runtime|b46b5ada-05e0-4c09-9e06-e270c8bdf357]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/many_kmeans_flow.py", line 84, in analyze
+[MFLOG|0|2025-01-05T09:56:14.892602Z|runtime|9359a149-7fec-4bd9-9fb2-dc412c4330e6]    feature_names = vectorizer.get_feature_names_out()  # Menggunakan vectorizer yang sudah ada
+[MFLOG|0|2025-01-05T09:56:14.892622Z|runtime|fdb072c5-e667-404f-9905-24b53de576c3]                    ^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:56:14.892652Z|runtime|f49bf2f4-3751-4418-94c9-4c6da241eaff]NameError: name 'vectorizer' is not defined
+[MFLOG|0|2025-01-05T09:56:14.892677Z|runtime|1d08c01e-ca1c-49e0-a68f-610a77970b82]
+[MFLOG|0|2025-01-05T09:56:14.893359Z|runtime|7c34188b-a595-4c45-947f-671064723d23]Task failed.

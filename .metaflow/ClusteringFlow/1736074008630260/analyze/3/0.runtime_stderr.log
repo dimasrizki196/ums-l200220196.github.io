@@ -1,0 +1,2 @@
+[MFLOG|0|2025-01-05T10:46:52.192524Z|runtime|3cee3793-2f72-4b36-b909-71e6a44ee39b]2025-01-05 17:46:52.192 python[5993:183749] +[IMKClient subclass]: chose IMKClient_Modern
+[MFLOG|0|2025-01-05T10:47:38.576555Z|runtime|405fa0f7-2241-4f1d-aa3d-83e990c780de]2025-01-05 17:46:52.192 python[5993:183749] +[IMKInputSession subclass]: chose IMKInputSession_Modern

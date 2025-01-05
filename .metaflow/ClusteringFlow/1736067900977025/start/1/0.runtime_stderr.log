@@ -1,0 +1,56 @@
+[MFLOG|0|2025-01-05T09:05:01.577479Z|runtime|48362c00-c96e-42d9-b36b-2ab0da99acbb]<flow ClusteringFlow step start> failed:
+[MFLOG|0|2025-01-05T09:05:01.582401Z|runtime|0f1b536c-7fe9-424b-983d-34008004b5d4]    Internal error
+[MFLOG|0|2025-01-05T09:05:01.583485Z|runtime|41b79410-ef85-426b-b852-2ea16a9d61ee]Traceback (most recent call last):
+[MFLOG|0|2025-01-05T09:05:01.583554Z|runtime|0226cc22-9b7b-4e45-a16b-b6de5af12520]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli.py", line 629, in main
+[MFLOG|0|2025-01-05T09:05:01.583596Z|runtime|7d9b7b22-f8dd-492a-809f-c5ca3a852dbc]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2025-01-05T09:05:01.583626Z|runtime|52657180-032f-4022-9cc0-dd84e322795b]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2025-01-05T09:05:01.583659Z|runtime|a68ef36d-e031-43e9-b2ec-11dd8edcc2d1]    return self.main(args, kwargs)
+[MFLOG|0|2025-01-05T09:05:01.661428Z|runtime|b863d682-61fc-4466-989c-e2f18f2578b0]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.661581Z|runtime|58812aea-7c09-413d-99ed-28fcb8123c68]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2025-01-05T09:05:01.661625Z|runtime|3ba67d56-ca3b-40d1-a5a5-faa1aed748a6]    rv = self.invoke(ctx)
+[MFLOG|0|2025-01-05T09:05:01.661661Z|runtime|c1a41c2a-60be-4f89-8149-d97489c09385]         ^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.661696Z|runtime|c1a3d836-d3c8-48df-bb66-d75634cfdc10]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli_components/utils.py", line 69, in invoke
+[MFLOG|0|2025-01-05T09:05:01.661723Z|runtime|7ea977af-453a-4a1e-a0da-dba2d352f642]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2025-01-05T09:05:01.661743Z|runtime|1c340df2-7f25-4b96-8fa1-9ed557cd9704]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.661765Z|runtime|a3f00b70-67da-4c5e-800e-e454cf9cf446]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2025-01-05T09:05:01.661784Z|runtime|58074622-2f5e-4bcb-bdfd-5a8b899136b7]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2025-01-05T09:05:01.661803Z|runtime|2fc9269f-5086-4e67-9f2c-541cc4902334]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.662074Z|runtime|b953a3d7-8063-47b6-8cb6-0123abedee6b]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2025-01-05T09:05:01.662133Z|runtime|34f5e93f-78c6-4ec6-8c34-b410a318c270]    return callback(args, kwargs)
+[MFLOG|0|2025-01-05T09:05:01.662165Z|runtime|47fd4db7-d710-46fd-813c-2c20d3c21b1c]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.662192Z|runtime|60026e07-3945-4cb3-923a-bb551bd7a8f7]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2025-01-05T09:05:01.662218Z|runtime|ff9aeb44-fe4a-45cb-ba0b-56a56fb9bd0f]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2025-01-05T09:05:01.662244Z|runtime|f2ff295f-7d4c-43b8-b71d-03544738df47]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.662267Z|runtime|85f146dd-b866-45ec-9553-7a4538f25d94]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/cli_components/step_cmd.py", line 178, in step
+[MFLOG|0|2025-01-05T09:05:01.662293Z|runtime|41345c24-01c1-4a7c-a676-a697596d809c]    task.run_step(
+[MFLOG|0|2025-01-05T09:05:01.662319Z|runtime|ec7520ce-dd67-43dd-b96b-98a0689806f4]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/task.py", line 653, in run_step
+[MFLOG|0|2025-01-05T09:05:01.662341Z|runtime|41ac99da-513b-4cf1-ab71-9174b813e616]    self._exec_step_function(step_func)
+[MFLOG|0|2025-01-05T09:05:01.662368Z|runtime|c367c6c6-9ff8-4e74-ab23-af8ff252c822]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/metaflow/task.py", line 62, in _exec_step_function
+[MFLOG|0|2025-01-05T09:05:01.662396Z|runtime|2db727ba-8650-4fd2-9979-9ad3cd5a8718]    step_function()
+[MFLOG|0|2025-01-05T09:05:01.662420Z|runtime|f1f039c3-2a29-45c2-b96d-1f444d4123ad]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/many_kmeans_flow.py", line 23, in start
+[MFLOG|0|2025-01-05T09:05:01.662446Z|runtime|ce91d527-b5cc-4a07-9089-48f89326d601]    self.scaled_data = scaler.fit_transform(self.df[numeric_columns])
+[MFLOG|0|2025-01-05T09:05:01.662468Z|runtime|fdb8f09d-064a-41cc-8440-82598780f899]                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.662493Z|runtime|e8b171c1-5bfc-426a-aaed-6698642101f6]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/sklearn/utils/_set_output.py", line 319, in wrapped
+[MFLOG|0|2025-01-05T09:05:01.662516Z|runtime|f0d297ae-11db-44a5-bf70-dd9f35dc7142]    data_to_wrap = f(self, X, args, kwargs)
+[MFLOG|0|2025-01-05T09:05:01.662538Z|runtime|9230df67-8c2b-4c12-a368-bec30c6fbe52]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.662561Z|runtime|a0195e55-b341-46e3-b050-1b8c1b133bf4]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/sklearn/base.py", line 918, in fit_transform
+[MFLOG|0|2025-01-05T09:05:01.662584Z|runtime|876a5cdc-124f-480c-8595-e20bf0ccefdb]    return self.fit(X, fit_params).transform(X)
+[MFLOG|0|2025-01-05T09:05:01.662607Z|runtime|a1d7c71a-80e2-47e7-8b5e-51161f6ce1f0]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.662628Z|runtime|16d24f47-cd62-403d-b61d-8c877664f187]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 894, in fit
+[MFLOG|0|2025-01-05T09:05:01.662648Z|runtime|54456ceb-7dd0-471a-8b8f-a1dd63bc82cf]    return self.partial_fit(X, y, sample_weight)
+[MFLOG|0|2025-01-05T09:05:01.662669Z|runtime|30b634d4-822a-458c-ab5d-a6c69e3d5aea]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.662693Z|runtime|7cbd9af3-3eea-48ed-a941-a1f7fd0eba29]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/sklearn/base.py", line 1389, in wrapper
+[MFLOG|0|2025-01-05T09:05:01.662715Z|runtime|102cb7a6-4cc9-41eb-b971-f5a27cbf0b06]    return fit_method(estimator, args, kwargs)
+[MFLOG|0|2025-01-05T09:05:01.662735Z|runtime|40c2fdde-38eb-46c3-83f4-a95be299571f]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.662759Z|runtime|93e4389b-cdb8-4fbb-98c5-77b7d92d1112]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/sklearn/preprocessing/_data.py", line 930, in partial_fit
+[MFLOG|0|2025-01-05T09:05:01.662779Z|runtime|d6284d7e-0d1d-46f2-b900-015d248c075a]    X = validate_data(
+[MFLOG|0|2025-01-05T09:05:01.662802Z|runtime|09f1fc7c-f921-43de-835b-6ca0cd2297af]        ^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.662827Z|runtime|8cc2ecc2-4fa4-4d53-910b-ce51acee4cb1]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 2944, in validate_data
+[MFLOG|0|2025-01-05T09:05:01.662850Z|runtime|c22b562e-be65-41e8-a848-6c8b46fdcac4]    out = check_array(X, input_name="X", check_params)
+[MFLOG|0|2025-01-05T09:05:01.662873Z|runtime|6c46717e-b751-4673-a4dc-bc68f67f4a1a]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.662895Z|runtime|50bf18d5-211a-4f92-84e8-350cdc436cd0]  File "/Users/dimasrizki/Documents/ipsd/L196_Tugas Sebelum UAS/myenv/lib/python3.12/site-packages/sklearn/utils/validation.py", line 931, in check_array
+[MFLOG|0|2025-01-05T09:05:01.662916Z|runtime|61cf1d18-f3c9-4743-9d1a-810338d16e6b]    dtype_orig = np.result_type(dtypes_orig)
+[MFLOG|0|2025-01-05T09:05:01.662940Z|runtime|c825fa7b-1919-4c5d-b967-553e20e6825b]                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2025-01-05T09:05:01.662961Z|runtime|7da6d378-93ea-4586-aa91-92b9df027951]ValueError: at least one array or dtype is required
+[MFLOG|0|2025-01-05T09:05:01.662985Z|runtime|a55adf61-1e97-4db5-9052-b9ae64b9eef6]
+[MFLOG|0|2025-01-05T09:05:01.663317Z|runtime|e88324b2-07ae-4e85-88b6-48e696778ccc]Task failed.

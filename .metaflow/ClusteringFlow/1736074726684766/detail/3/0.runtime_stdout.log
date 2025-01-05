@@ -1,0 +1,18 @@
+[MFLOG|0|2025-01-05T10:58:49.182451Z|runtime|b360ad5d-8d5a-4f22-a430-dd6fd4968fbd]Cluster labels: [1 0 0 ... 1 1 1]
+[MFLOG|0|2025-01-05T10:58:49.183132Z|runtime|424849ee-08d8-49df-bb8d-45bb60135ffb]Cluster centroids: 
+[MFLOG|0|2025-01-05T10:58:49.186530Z|runtime|4a3d5dde-3db5-4e65-8f79-f0795c562d55][[0.00092139 0.000842   0.00061721 ... 0.00092225 0.0004275  0.        ]
+[MFLOG|0|2025-01-05T10:58:49.186584Z|runtime|2ed65549-0885-45d8-9853-3744fa5d4de7] [0.00032517 0.         0.00019124 ... 0.00186201 0.         0.00018719]
+[MFLOG|0|2025-01-05T10:58:49.186616Z|runtime|d56b0597-6144-49db-b85d-4bcc6cea85f9] [0.         0.         0.         ... 0.         0.         0.        ]]
+[MFLOG|0|2025-01-05T10:58:49.186645Z|runtime|8c79fc03-a757-4642-bf72-38b8edf357ab]Top 3 entries from each cluster:
+[MFLOG|0|2025-01-05T10:58:49.189544Z|runtime|e9098264-ab02-4d5f-8cff-42fcb43a21d3]    14/11/23 10.04 - Pesan dan panggilan dienkripsi secara end-to-end. Tidak seorang pun di luar chat ini  ... Cluster
+[MFLOG|0|2025-01-05T10:58:52.056300Z|runtime|398f353b-160b-4866-aaba-809997b49d89]0       260823 19.05 -   membuat grup GDSC UMS 2023-24                                                     ...       1
+[MFLOG|0|2025-01-05T10:58:52.056347Z|runtime|b5c107f4-992e-46ce-9ba9-3133623be65c]1    141123 10.04 - Anda bergabung menggunakan taut...                                                     ...       0
+[MFLOG|0|2025-01-05T10:58:52.056377Z|runtime|fd198d85-12d2-4b57-b8d0-e9e3a58c24e1]2    141123 10.11 - 62 897-3498-332 bergabung mengg...                                                     ...       0
+[MFLOG|0|2025-01-05T10:58:52.056405Z|runtime|ae73f243-93a9-4ebc-b967-c2e1ca59e67d]3    141123 10.44 - 62 881-4165-101: gaisss yang ma...                                                     ...       0
+[MFLOG|0|2025-01-05T10:58:52.056431Z|runtime|db47885a-1d05-4491-9648-475ac6d2b75f]7    141123 13.32 - Kode keamanan Anda dengan  fara...                                                     ...       1
+[MFLOG|0|2025-01-05T10:58:52.056585Z|runtime|83059d10-3022-4f26-a6b0-0c4df2bb43e5]49   181123 12.21 - Kode keamanan Anda dengan  Muha...                                                     ...       1
+[MFLOG|0|2025-01-05T10:58:52.056742Z|runtime|e6690791-e2d0-4180-9ced-cdb84070c0f5]212                                             4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:58:52.056794Z|runtime|49bc04c6-5e4a-465d-8089-ff84811aa508]224                                             4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:58:52.056856Z|runtime|be967487-8018-40ea-ab9d-398b5fb08b63]236                                             4.Yona                                                     ...       2
+[MFLOG|0|2025-01-05T10:58:52.056902Z|runtime|6d9d64fe-6bb8-4196-9aeb-a15b2e50d57a]
+[MFLOG|0|2025-01-05T10:58:52.056932Z|runtime|85829002-2f2c-4dc9-a671-036da9362f51][9 rows x 4 columns]
